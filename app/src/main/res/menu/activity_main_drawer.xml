@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook_inverted"
+            android:title="@string/facebook" />
+        <item
+            android:id="@+id/twitter"
+            android:icon="@drawable/twitter_inverted"
+            android:title="@string/twitter" />
+        <item
+            android:id="@+id/youtube"
+            android:icon="@drawable/youtube_inverted"
+            android:title="@string/youtube" />
+        <item
+            android:id="@+id/flickr"
+            android:icon="@drawable/flickr_inverted"
+            android:title="@string/flickr" />
+        <item
+            android:id="@+id/ticketshop"
+            android:icon="@drawable/shop_inverted"
+            android:title="@string/ticketshop"/>
+        <item
+            android:id="@+id/kontakt"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/kontakt"/>
+    </group>
+</menu>
